@@ -16,11 +16,11 @@ int main()
     {
         printf("A=%i is bigger than B and C\n",a);
     }
-    if(b>a&& b>c)
+    else if(b>a&& b>c)
     {
        printf("B =%i is bigger than A and C\n",b); 
     }
-    if(b <c && c>a)
+   else if(b <c && c>a)
     {
         printf("C= %i is bigger than A and C\n",c);
     }
